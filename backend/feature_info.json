@@ -1,0 +1,62 @@
+{
+  "numeric": [
+    "months_as_customer",
+    "age",
+    "policy_annual_premium",
+    "policy_deductable",
+    "umbrella_limit",
+    "number_of_vehicles_involved",
+    "bodily_injuries",
+    "witnesses",
+    "total_claim_amount",
+    "incident_hour_of_the_day"
+  ],
+  "categorical": {
+    "insured_sex": [
+      "FEMALE",
+      "MALE"
+    ],
+    "insured_relationship": [
+      "husband",
+      "not-in-family",
+      "other-relative",
+      "own-child",
+      "unmarried",
+      "wife"
+    ],
+    "incident_type": [
+      "Multi-vehicle Collision",
+      "Parked Car",
+      "Single Vehicle Collision",
+      "Vehicle Theft"
+    ],
+    "collision_type": [
+      "?",
+      "Front Collision",
+      "Rear Collision",
+      "Side Collision"
+    ],
+    "incident_severity": [
+      "Major Damage",
+      "Minor Damage",
+      "Total Loss",
+      "Trivial Damage"
+    ],
+    "authorities_contacted": [
+      "Ambulance",
+      "Fire",
+      "Other",
+      "Police"
+    ],
+    "property_damage": [
+      "?",
+      "NO",
+      "YES"
+    ],
+    "police_report_available": [
+      "?",
+      "NO",
+      "YES"
+    ]
+  }
+}
